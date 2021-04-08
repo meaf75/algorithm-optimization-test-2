@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "163ba2d2-a112-451a-8f7b-fbf3d0643c42",
+		"name": "algorithm-optimization-test-2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Partition index",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "arr",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "arr",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "arr",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "arr",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "arr",
+							"value": "3x",
+							"type": "text"
+						},
+						{
+							"key": "arr",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/partitionindex",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"partitionindex"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
